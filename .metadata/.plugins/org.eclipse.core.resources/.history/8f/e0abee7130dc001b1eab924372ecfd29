@@ -1,0 +1,16 @@
+package empresa;
+
+public class Pf extends Funcionario {
+	private String cpf;
+	private double salarioLocal;
+	
+	public Pf(String nome) {
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+}

@@ -1,0 +1,10 @@
+package escola;
+
+public class Main {
+	public static void main(String args[]) {
+		int[] numeros = new int[2];
+		
+		
+		System.out.println(numeros[1]);
+	}
+}

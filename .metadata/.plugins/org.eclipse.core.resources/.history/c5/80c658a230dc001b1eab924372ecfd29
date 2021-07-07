@@ -1,0 +1,18 @@
+package empresa;
+
+public class Pf extends Funcionario {
+	private String cpf;
+	
+	public Pf(String nome) {
+		super.setNome(nome);
+		String[] beneficios = {"Plano de saúde"};
+		super.setBeneficios(beneficios);
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+}

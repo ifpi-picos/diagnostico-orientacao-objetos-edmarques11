@@ -1,0 +1,25 @@
+package empresa;
+
+public class Pj extends Funcionario {
+	private String cnpj;
+	private double salarioLocal;
+
+	public Pj(String nome) {
+		super.setNome(nome);
+		String[] beneficios = {"Plano de saúde", "Vale refeição", "Ferias"};
+		this.salarioLocal = super.getSalario();
+		super.setBeneficios(beneficios);
+	}
+	
+	@Override
+	public double getSalario() {
+		return this.salarioLocal - (this.salarioLocal * 0.1);
+	}
+	
+	public String getCnpj() {
+		return cnpj;
+	}
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
+}

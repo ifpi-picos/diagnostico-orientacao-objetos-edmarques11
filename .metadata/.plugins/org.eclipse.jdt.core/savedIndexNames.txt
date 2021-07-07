@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/media/edmarques/Meus Arquivos/Código/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1624189629.index
+3677827944.index
+3949366491.index

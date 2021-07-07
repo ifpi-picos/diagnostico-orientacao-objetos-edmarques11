@@ -1,0 +1,18 @@
+package escola;
+
+public class Main {
+	public static void main(String args[]) {
+		int[] numeros = new int[1];
+		
+		System.out.println("aqui " + numeros.length);
+		
+		int tamanho1 = numeros.length;
+		numeros[0] = 2;
+		int tamanho2 = numeros.length;
+		numeros[1] = 3;
+		
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println(numeros[i]);
+		}
+	}
+}

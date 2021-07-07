@@ -1,0 +1,24 @@
+package empresa;
+
+public class Empresa {
+	private String nome;
+	private Funcionario[] funcionarios = new Funcionario[1];
+	
+	public Empresa(String nome) {
+		super();
+		this.nome = nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Funcionario[] getFuncionarios() {
+		return funcionarios;
+	}
+	public void setFuncionarios(Funcionario[] funcionarios) {
+		this.funcionarios = funcionarios;
+	}
+}

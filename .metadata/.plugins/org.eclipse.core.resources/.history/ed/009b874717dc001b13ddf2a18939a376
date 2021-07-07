@@ -1,0 +1,10 @@
+package escola;
+
+public class Main {
+	public static void main(String args[]) {
+		Disciplina[] numeros = new Disciplina[2];
+		
+		
+		System.out.println(numeros[1]);
+	}
+}

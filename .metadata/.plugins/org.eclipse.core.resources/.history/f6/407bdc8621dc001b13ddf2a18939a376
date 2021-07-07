@@ -1,0 +1,11 @@
+package escola;
+
+public class Main {
+	public static void main(String args[]) {
+		Disciplina topicosEscpeciais = new Disciplina("Tópicos Especiais", 68);
+		Disciplina[] adsDisciplinas = {topicosEscpeciais};
+		Curso ads = new Curso("ADS", adsDisciplinas);
+		
+		System.out.println(ads.getDisciplinas()[1]);
+	}
+}

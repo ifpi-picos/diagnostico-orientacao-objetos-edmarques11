@@ -1,0 +1,19 @@
+package escola;
+
+public class Main {
+	public static void main(String args[]) {
+		Professor jesiel = new Professor("Jesiel");
+		Disciplina topicosEscpeciais = new Disciplina("Tópicos Especiais", 68);
+		topicosEscpeciais.setProfessor(jesiel);
+		Disciplina[] adsDisciplinas = {topicosEscpeciais};
+		Curso ads = new Curso("ADS", adsDisciplinas);
+		Disciplina algoritmo = new Disciplina("Algoritmo", 68);
+		Disciplina bancoDados = new Disciplina("Banco de Dados", 68);
+		ads.adicionaDisciplina(algoritmo);
+		ads.adicionaDisciplina(bancoDados);
+		
+		for (Disciplina d : ads.getDisciplinas()) {
+			System.out.println(d.getNome());
+		}
+	}
+}
